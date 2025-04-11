@@ -10,7 +10,7 @@ public class Main {
             System.out.println("La marca no es la misma.");
         } else if ((c1.getMarca().equals(c2.getMarca())) && (!c1.getModelo().equals(c2.getModelo())) && (c1.getAnio() == c2.getAnio())) {
             System.out.println("El modelo no es el mismo");
-        } else if ((c1.getMarca().equals(c2.getMarca())) && (c1.getModelo().equals(c2.getModelo())) && (c1.getAnio() != c2.getAnio())){
+        } else if ((c1.getMarca().equals(c2.getMarca())) && (c1.getModelo().equals(c2.getModelo())) && (c1.getAnio() != c2.getAnio()){
             System.out.println("El año no es el mismo");
         } else if ((c1.getMarca().equals(c2.getMarca())) && (!c1.getModelo().equals(c2.getModelo())) && (c1.getAnio() != c2.getAnio())){
             System.out.println("Solo tienen la misma marca.");
